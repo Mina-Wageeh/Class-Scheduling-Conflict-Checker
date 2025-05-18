@@ -32,12 +32,21 @@ class ClassScheduleFeatureTest extends TestCase
 
     public function test_store_class_schedule_with_conflicts()
     {
+        ClassSchedule::create
+        ([
+            "course_id"=> 4,
+            "teacher_id"=> 4,
+            "start_time"=> "2023-06-01 04:00:00",
+            "end_time"=> "2023-06-01 06:00:00",
+            "day_of_week"=> "Thursday"
+        ]);
+
         $classScheduleData =
         [
-            "course_id"=> 3,
-            "teacher_id"=> 1,
-            "start_time"=> "2023-06-01 07:00:00",
-            "end_time"=> "2023-06-01 09:00:00",
+            "course_id"=> 4,
+            "teacher_id"=> 4,
+            "start_time"=> "2023-06-01 04:00:00",
+            "end_time"=> "2023-06-01 06:00:00",
             "day_of_week"=> "Thursday"
         ];
 

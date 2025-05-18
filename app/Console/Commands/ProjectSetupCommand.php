@@ -25,6 +25,6 @@ class ProjectSetupCommand extends Command
         $this->info('Serving The Project into Localhost...');
         $this->call('serve');
 
-        $this->info('✅ Project Setup Completed');
+        $this->info('Project Setup Completed');
     }
 }

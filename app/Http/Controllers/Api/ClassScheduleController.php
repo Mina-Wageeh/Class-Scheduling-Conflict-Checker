@@ -4,7 +4,6 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\SaveClassScheduleRequest;
-use App\Models\ClassSchedule;
 use App\Services\Interfaces\ClassScheduleServiceInterface;
 
 class ClassScheduleController extends Controller

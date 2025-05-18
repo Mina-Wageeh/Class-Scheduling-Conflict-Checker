@@ -30,7 +30,8 @@ class ClassScheduleRepository implements ClassScheduleRepositoryInterface
             ->where('start_time', '<', $endTime)
             ->where('end_time', '>', $startTime);
 
-        if ($excludeId) {
+        if ($excludeId)
+        {
             $query->where('id', '!=', $excludeId);
         }
 

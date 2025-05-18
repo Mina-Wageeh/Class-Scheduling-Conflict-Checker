@@ -21,7 +21,6 @@ return new class extends Migration
             $table->dateTime('end_time');
             $table->string('day_of_week');
             $table->string('classroom')->nullable();
-            $table->index(['teacher_id', 'start_time', 'end_time']);
             $table->timestamps();
         });
     }

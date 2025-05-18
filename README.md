@@ -4,7 +4,7 @@
 
 ---
 
-### 🚀 Installation
+#### 🚀 Installation
 
 - git clone https://github.com/Mina-Wageeh/Class-Scheduling-Conflict-Checker
 - composer install

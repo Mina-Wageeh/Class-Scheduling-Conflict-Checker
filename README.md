@@ -4,7 +4,7 @@
 
 ---
 
-<p style="font-size:25px ; font-weight:bold">🚀 Installation</p>
+## 🚀 Installation
 
 - git clone https://github.com/Mina-Wageeh/Class-Scheduling-Conflict-Checker
 - composer install

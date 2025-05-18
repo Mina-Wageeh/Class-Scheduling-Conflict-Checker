@@ -27,12 +27,8 @@ class ClassScheduleRepository implements ClassScheduleRepositoryInterface
     public function findForTeacher(int $teacherId, string $startTime, string $endTime, ?int $excludeId = null): ?ClassSchedule
     {
         $query = ClassSchedule::where('teacher_id', $teacherId)
-                 ->where(function($q) use ($startTime, $endTime) {
-                $q->where(function($q) use ($startTime, $endTime) {
-                    $q->where('start_time', '<', $endTime)
-                        ->where('end_time', '>', $startTime);
-                });
-            });
+            ->where('start_time', '<', $endTime)
+            ->where('end_time', '>', $startTime);
 
         if ($excludeId) {
             $query->where('id', '!=', $excludeId);

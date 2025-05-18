@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\StoreClassScheduleRequest;
+use App\Http\Requests\SaveClassScheduleRequest;
 use App\Models\ClassSchedule;
 use App\Services\Interfaces\ClassScheduleServiceInterface;
 
@@ -17,7 +17,7 @@ class ClassScheduleController extends Controller
     }
 
     //Create A New Class Schedule
-    public function store(StoreClassScheduleRequest $request)
+    public function store(SaveClassScheduleRequest $request)
     {
         $dto = $request->getDto();
 
@@ -33,7 +33,7 @@ class ClassScheduleController extends Controller
     }
 
     //Update An Existing Class Schedule
-    public function update(StoreClassScheduleRequest $request, $id)
+    public function update(SaveClassScheduleRequest $request, $id)
     {
         $dto = $request->getDto();
 

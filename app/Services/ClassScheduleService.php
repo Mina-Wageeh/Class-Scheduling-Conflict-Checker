@@ -37,7 +37,6 @@ class ClassScheduleService implements ClassScheduleServiceInterface
     }
 
 
-
     public function checkForConflicts(ClassScheduleDto $data, $excludeId = null): void
     {
         $conflict = $this->classScheduleRepository->findForTeacher

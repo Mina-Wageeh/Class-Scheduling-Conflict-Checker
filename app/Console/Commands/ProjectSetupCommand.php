@@ -13,9 +13,6 @@ class ProjectSetupCommand extends Command
 
     public function handle()
     {
-        $this->info('Running Composer Install');
-        $this->runProcess(['composer', 'install']);
-
         $this->info('Generating App Key...');
         $this->call('key:generate');
 
@@ -26,15 +23,5 @@ class ProjectSetupCommand extends Command
         $this->call('db:seed');
 
         $this->info('✅ Project Setup Completed');
-    }
-
-    protected function runProcess(array $command)
-    {
-        $process = new Process($command);
-        $process->setTimeout(null);
-        $process->run(function ($type, $buffer)
-        {
-            echo $buffer;
-        });
     }
 }

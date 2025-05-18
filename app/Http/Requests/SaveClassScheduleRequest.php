@@ -5,7 +5,7 @@ namespace App\Http\Requests;
 use App\Dto\ClassScheduleDto;
 use Illuminate\Foundation\Http\FormRequest;
 
-class StoreClassScheduleRequest extends FormRequest
+class SaveClassScheduleRequest extends FormRequest
 {
     public function authorize()
     {

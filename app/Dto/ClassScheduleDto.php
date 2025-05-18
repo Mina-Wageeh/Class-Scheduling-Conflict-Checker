@@ -11,12 +11,10 @@ class ClassScheduleDto
     public string $day_of_week;
     public ?string $classroom = null;
 
-
     public function getCourseId(): int
     {
         return $this->course_id;
     }
-
 
     public function setCourseId(int $course_id): self
     {
@@ -91,6 +89,4 @@ class ClassScheduleDto
           'classroom' => $this->getClassroom(),
         ];
     }
-
-
 }

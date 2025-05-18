@@ -1,4 +1,4 @@
-# 🎓 Class Scheduling System
+# Class Scheduling System
 
 A Laravel-based API system for managing class schedules with automatic conflict detection for teachers and course times.
 
@@ -8,7 +8,6 @@ A Laravel-based API system for managing class schedules with automatic conflict 
 ## 📦 Installation
 
 - git clone https://github.com/your-username/class-scheduling-system.git
-- cd class-scheduling-system
 - composer install
 - cp .env.example .env
 - php artisan key:generate

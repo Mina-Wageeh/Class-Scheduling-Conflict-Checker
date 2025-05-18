@@ -12,6 +12,14 @@
 - php artisan key:generate
 - php artisan migrate
 - php artisan db:seed
+- php artisan serve
+
+---
+
+### 🚀 Shortcut to installation
+
+- composer install
+- php artisan project:setup
 
 ---
 
@@ -41,7 +49,7 @@
 - Models
 - DTO Layer
 - Service Layer
-- Reposetoriy Layer
+- Repository Layer
 - Form request validation
 - API routes
 - Feature tests

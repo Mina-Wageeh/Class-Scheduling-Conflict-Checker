@@ -4,7 +4,6 @@
 <p>Simple project for creating and updating class schedules, with automatic conflict checking for teacher timings</p>
 ---
 
-```bash
 ## 📦 Installation
 
 - git clone https://github.com/your-username/class-scheduling-system.git

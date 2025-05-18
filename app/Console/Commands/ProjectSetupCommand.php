@@ -22,6 +22,9 @@ class ProjectSetupCommand extends Command
         $this->info('Seeding The Database...');
         $this->call('db:seed');
 
+        $this->info('Serving The Project into Localhost...');
+        $this->call('serve');
+
         $this->info('✅ Project Setup Completed');
     }
 }

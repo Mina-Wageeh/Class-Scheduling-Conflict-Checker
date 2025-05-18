@@ -4,9 +4,9 @@ A Laravel-based API system for managing class schedules with automatic conflict 
 
 ---
 
+```bash
 ## 📦 Installation
 
-```bash
 - git clone https://github.com/your-username/class-scheduling-system.git
 - cd class-scheduling-system
 - composer install

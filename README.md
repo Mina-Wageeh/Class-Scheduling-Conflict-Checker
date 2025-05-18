@@ -1,5 +1,4 @@
-<h1 align="center">⭐ Class Scheduling Conflict Checker System ⭐</h1>
-
+<h1  align="center" style="border: none; padding: 0; margin: 0;">⭐ Class Scheduling Conflict Checker System ⭐</h1>
 
 <p align="center">Simple project for creating and updating class schedules, with automatic conflict checking for teacher timings</p>
 

@@ -1,7 +1,7 @@
-# Class Scheduling Conflict Checker System
+<h1 align="center">Class Scheduling Conflict Checker System</h1>
 
-A Laravel-based API system for managing class schedules with automatic conflict detection for teachers and course times.
 
+Simple project for creating and updating class schedules, with automatic conflict checking for teacher timings
 ---
 
 ```bash

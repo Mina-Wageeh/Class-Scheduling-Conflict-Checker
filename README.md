@@ -1,4 +1,4 @@
-# Class Scheduling System
+# Class Scheduling Conflict Checker System
 
 A Laravel-based API system for managing class schedules with automatic conflict detection for teachers and course times.
 

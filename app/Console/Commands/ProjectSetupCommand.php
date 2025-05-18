@@ -9,7 +9,7 @@ class ProjectSetupCommand extends Command
 {
     protected $signature = 'project:setup';
 
-    protected $description = 'Setup , Install And Run The Whole Project With One Command';
+    protected $description = 'Setup Install And Run The Whole Project With One Command';
 
     public function handle()
     {

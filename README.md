@@ -3,7 +3,9 @@
 
 <p align="center">Simple project for creating and updating class schedules, with automatic conflict checking for teacher timings</p>
 
-## 📦 Installation
+---
+
+## 🚀 Installation
 
 - git clone https://github.com/your-username/class-scheduling-system.git
 - composer install

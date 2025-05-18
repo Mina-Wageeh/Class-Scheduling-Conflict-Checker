@@ -2,7 +2,6 @@
 
 
 <p>Simple project for creating and updating class schedules, with automatic conflict checking for teacher timings</p>
----
 
 ## 📦 Installation
 

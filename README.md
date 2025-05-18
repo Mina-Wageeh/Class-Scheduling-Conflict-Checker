@@ -1,7 +1,7 @@
 <h1 align="center">⭐ Class Scheduling Conflict Checker System ⭐</h1>
 
 
-<p>Simple project for creating and updating class schedules, with automatic conflict checking for teacher timings</p>
+<p align="center">Simple project for creating and updating class schedules, with automatic conflict checking for teacher timings</p>
 
 ## 📦 Installation
 

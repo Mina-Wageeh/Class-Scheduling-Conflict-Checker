@@ -5,9 +5,9 @@
 
 ---
 
-## 🚀 Installation
+🚀 Installation
 
-- git clone https://github.com/your-username/class-scheduling-system.git
+- git clone https://github.com/Mina-Wageeh/Class-Scheduling-Conflict-Checker
 - composer install
 - cp .env.example .env
 - php artisan key:generate

@@ -4,7 +4,7 @@
 
 ---
 
-#### 🚀 Installation
+### 🚀 Installation
 
 - git clone https://github.com/Mina-Wageeh/Class-Scheduling-Conflict-Checker
 - composer install
@@ -15,7 +15,7 @@
 
 ---
 
-## 🚀 Features
+### 🚀 Features
 
 - ✅ Create Class Schedules
 - 🛠️ Update Existing schedules
@@ -25,7 +25,7 @@
 
 ---
 
-## 🧰 Tech Stack
+### 🧰 Tech Stack
 
 - **PHP 8.2**
 - **Laravel 9**
@@ -35,7 +35,7 @@
 
 ---
 
-## 📁 Project Structure
+### 📁 Project Structure
 
 - API Controllers
 - Models
